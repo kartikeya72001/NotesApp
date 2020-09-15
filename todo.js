@@ -15,6 +15,7 @@ function Add()
         para.appendChild(node);
         para.id = i;
         para.className = "para";
+        para.style.padding = "2rem"
         var element = document.getElementById("root");
         element.appendChild(para);
 
