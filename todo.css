@@ -27,6 +27,7 @@
     margin-bottom: 20px !important;
     display: block !important;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
 }
 .button {
   background-color: red; /* Green */

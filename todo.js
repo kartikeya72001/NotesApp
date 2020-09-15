@@ -16,7 +16,7 @@ function Add()
         para.id = i;
         para.className = "para";
         para.style.fontSize = "3rem";
-        para.style.padding = "2.5rem";
+        para.style.padding = "3rem";
         para.style.margin = "0";
         var element = document.getElementById("root");
         element.appendChild(para);
@@ -30,8 +30,9 @@ function Add()
         textf.style.fontSize = "1.5rem";
         var elementfield = document.getElementById("root");
         elementfield.appendChild(textf);
-
     }
+    document.getElementById("textfield").value = "";
+    document.getElementById("mainText").value = "";
 }
 function Pop()
 {
