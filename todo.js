@@ -15,7 +15,9 @@ function Add()
         para.appendChild(node);
         para.id = i;
         para.className = "para";
-        para.style.padding = "2rem"
+        para.style.fontSize = "3rem";
+        para.style.padding = "2.5rem";
+        para.style.margin = "0";
         var element = document.getElementById("root");
         element.appendChild(para);
 
@@ -25,6 +27,7 @@ function Add()
         textf.id = "text"+i;
         textf.className = "mainText";
         textf.style.display = "none";
+        textf.style.fontSize = "1.5rem";
         var elementfield = document.getElementById("root");
         elementfield.appendChild(textf);
 
