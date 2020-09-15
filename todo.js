@@ -21,7 +21,7 @@ function Add()
         var element = document.getElementById("root");
         element.appendChild(para);
 
-        var textf = document.createElement('p');
+        var textf = document.createElement('pre');
         var textnode = document.createTextNode(maintext[i]);
         textf.appendChild(textnode);
         textf.id = "text"+i;
